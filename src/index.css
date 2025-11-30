@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+video,
+canvas {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.results {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
